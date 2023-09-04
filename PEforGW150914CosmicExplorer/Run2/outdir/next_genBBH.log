@@ -1,0 +1,332 @@
+17:54 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_black_hole
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+17:54 INFO    : Injected signal in H1:
+17:54 INFO    :   optimal SNR = 369.76
+17:54 INFO    :   matched filter SNR = 370.95+0.27j
+17:54 INFO    :   mass_1 = 36.0
+17:54 INFO    :   mass_2 = 29.0
+17:54 INFO    :   a_1 = 0.4
+17:54 INFO    :   a_2 = 0.3
+17:54 INFO    :   tilt_1 = 0.5
+17:54 INFO    :   tilt_2 = 1.0
+17:54 INFO    :   phi_12 = 1.7
+17:54 INFO    :   phi_jl = 0.3
+17:54 INFO    :   luminosity_distance = 2000.0
+17:54 INFO    :   theta_jn = 0.4
+17:54 INFO    :   psi = 2.659
+17:54 INFO    :   phase = 1.3
+17:54 INFO    :   geocent_time = 1126259642.413
+17:54 INFO    :   ra = 1.375
+17:54 INFO    :   dec = 0.2108
+17:54 INFO    : No prior given, using default BBH priors in /home/sadhana/miniconda3/lib/python3.9/site-packages/bilby/gw/prior_files/precessing_spins_bbh.prior.
+17:54 INFO    : Injected signal in L1:
+17:54 INFO    :   optimal SNR = 592.63
+17:54 INFO    :   matched filter SNR = 591.45-0.19j
+17:54 INFO    :   mass_1 = 36.0
+17:54 INFO    :   mass_2 = 29.0
+17:54 INFO    :   a_1 = 0.4
+17:54 INFO    :   a_2 = 0.3
+17:54 INFO    :   tilt_1 = 0.5
+17:54 INFO    :   tilt_2 = 1.0
+17:54 INFO    :   phi_12 = 1.7
+17:54 INFO    :   phi_jl = 0.3
+17:54 INFO    :   luminosity_distance = 2000.0
+17:54 INFO    :   theta_jn = 0.4
+17:54 INFO    :   psi = 2.659
+17:54 INFO    :   phase = 1.3
+17:54 INFO    :   geocent_time = 1126259642.413
+17:54 INFO    :   ra = 1.375
+17:54 INFO    :   dec = 0.2108
+17:54 INFO    : No prior given, using default BBH priors in /home/sadhana/miniconda3/lib/python3.9/site-packages/bilby/gw/prior_files/precessing_spins_bbh.prior.
+17:58 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_black_hole
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+17:58 INFO    : Injected signal in H1:
+17:58 INFO    :   optimal SNR = 369.76
+17:58 INFO    :   matched filter SNR = 370.95+0.27j
+17:58 INFO    :   mass_1 = 36.0
+17:58 INFO    :   mass_2 = 29.0
+17:58 INFO    :   a_1 = 0.4
+17:58 INFO    :   a_2 = 0.3
+17:58 INFO    :   tilt_1 = 0.5
+17:58 INFO    :   tilt_2 = 1.0
+17:58 INFO    :   phi_12 = 1.7
+17:58 INFO    :   phi_jl = 0.3
+17:58 INFO    :   luminosity_distance = 2000.0
+17:58 INFO    :   theta_jn = 0.4
+17:58 INFO    :   psi = 2.659
+17:58 INFO    :   phase = 1.3
+17:58 INFO    :   geocent_time = 1126259642.413
+17:58 INFO    :   ra = 1.375
+17:58 INFO    :   dec = 0.2108
+17:59 INFO    : No prior given, using default BBH priors in /home/sadhana/miniconda3/lib/python3.9/site-packages/bilby/gw/prior_files/precessing_spins_bbh.prior.
+17:59 INFO    : Injected signal in L1:
+17:59 INFO    :   optimal SNR = 592.63
+17:59 INFO    :   matched filter SNR = 591.45-0.19j
+17:59 INFO    :   mass_1 = 36.0
+17:59 INFO    :   mass_2 = 29.0
+17:59 INFO    :   a_1 = 0.4
+17:59 INFO    :   a_2 = 0.3
+17:59 INFO    :   tilt_1 = 0.5
+17:59 INFO    :   tilt_2 = 1.0
+17:59 INFO    :   phi_12 = 1.7
+17:59 INFO    :   phi_jl = 0.3
+17:59 INFO    :   luminosity_distance = 2000.0
+17:59 INFO    :   theta_jn = 0.4
+17:59 INFO    :   psi = 2.659
+17:59 INFO    :   phase = 1.3
+17:59 INFO    :   geocent_time = 1126259642.413
+17:59 INFO    :   ra = 1.375
+17:59 INFO    :   dec = 0.2108
+17:59 INFO    : No prior given, using default BBH priors in /home/sadhana/miniconda3/lib/python3.9/site-packages/bilby/gw/prior_files/precessing_spins_bbh.prior.
+17:59 INFO    : Distance marginalisation file .distance_marginalization_lookup.npz does not exist
+17:59 INFO    : Building lookup table for distance marginalisation.
+18:03 INFO    : Running for label 'next_genBBH', output will be saved to 'outdir'
+18:03 INFO    : Using lal version 7.3.1
+18:03 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.15;Id: 9a0927aac5e23cd7c93ada22a24aef9e3a12a2c7;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+18:03 INFO    : Using lalsimulation version 5.2.0
+18:03 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.15;Id: 9a0927aac5e23cd7c93ada22a24aef9e3a12a2c7;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+18:03 INFO    : Analysis priors:
+18:03 INFO    : mass_ratio=bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.125, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)
+18:03 INFO    : chirp_mass=bilby.gw.prior.UniformInComponentsChirpMass(minimum=25, maximum=100, name='chirp_mass', latex_label='$\\mathcal{M}$', unit=None, boundary=None)
+18:03 INFO    : dec=Cosine(minimum=-1.5707963267948966, maximum=1.5707963267948966, name='dec', latex_label='$\\mathrm{DEC}$', unit=None, boundary=None)
+18:03 INFO    : ra=Uniform(minimum=0, maximum=6.283185307179586, name='ra', latex_label='$\\mathrm{RA}$', unit=None, boundary='periodic')
+18:03 INFO    : theta_jn=Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\theta_{JN}$', unit=None, boundary=None)
+18:03 INFO    : time_jitter=Uniform(minimum=-0.00048828125, maximum=0.00048828125, name='time_jitter', latex_label='$t_j$', unit=None, boundary='periodic')
+18:03 INFO    : mass_1=Constraint(minimum=5, maximum=100, name='mass_1', latex_label='$m_1$', unit=None)
+18:03 INFO    : mass_2=Constraint(minimum=5, maximum=100, name='mass_2', latex_label='$m_2$', unit=None)
+18:03 INFO    : luminosity_distance=3382.9535676089
+18:03 INFO    : psi=2.659
+18:03 INFO    : phase=0.0
+18:03 INFO    : a_1=0.4
+18:03 INFO    : a_2=0.3
+18:03 INFO    : tilt_1=0.5
+18:03 INFO    : tilt_2=1.0
+18:03 INFO    : phi_12=1.7
+18:03 INFO    : phi_jl=0.3
+18:03 INFO    : geocent_time=1126259640.413
+18:03 INFO    : Analysis likelihood class: <class 'bilby.gw.likelihood.base.GravitationalWaveTransient'>
+18:03 INFO    : Analysis likelihood noise evidence: -251754.11581569852
+18:03 INFO    : Single likelihood evaluation took 1.231e-02 s
+18:03 WARNING : Supplied argument 'npoints' not an argument of 'Dynesty', removing.
+18:03 WARNING : Supplied argument 'n_checkpoint' not an argument of 'Dynesty', removing.
+18:03 INFO    : Using sampler Dynesty with kwargs {'nlive': 512, 'bound': 'live', 'sample': 'act-walk', 'periodic': None, 'reflective': None, 'update_interval': 600, 'first_update': None, 'npdim': None, 'rstate': None, 'queue_size': 1, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'gradient': None, 'grad_args': None, 'grad_kwargs': None, 'compute_jac': False, 'enlarge': None, 'bootstrap': None, 'walks': 100, 'facc': 0.2, 'slices': None, 'fmove': 0.9, 'max_move': 100, 'update_func': None, 'ncdim': None, 'blob': False, 'save_history': False, 'history_filename': None, 'maxiter': None, 'maxcall': None, 'dlogz': 0.2, 'logl_max': inf, 'n_effective': None, 'add_live': True, 'print_progress': True, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f38879acfd0>>, 'save_bounds': False, 'checkpoint_file': None, 'checkpoint_every': 60, 'resume': False}
+18:03 INFO    : Checkpoint every check_point_delta_t = 600s
+18:03 INFO    : Using dynesty version 2.1.2
+18:03 INFO    : Using the bilby-implemented rwalk sampling tracking the autocorrelation function and thinning by 2 with maximum length 2000
+18:03 INFO    : Resume file outdir/next_genBBH_resume.pickle does not exist.
+18:03 INFO    : Generating initial points from the prior
+18:14 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+18:14 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:14 WARNING : Failed to create dynesty state plot at checkpoint
+18:14 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:14 WARNING : Failed to create dynesty unit state plot at checkpoint
+18:14 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:14 WARNING : Failed to create dynesty run plot at checkpoint
+18:25 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+18:25 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:25 WARNING : Failed to create dynesty state plot at checkpoint
+18:25 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:25 WARNING : Failed to create dynesty unit state plot at checkpoint
+18:25 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:25 WARNING : Failed to create dynesty run plot at checkpoint
+18:36 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+18:36 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:36 WARNING : Failed to create dynesty state plot at checkpoint
+18:36 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:36 WARNING : Failed to create dynesty unit state plot at checkpoint
+18:36 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:36 WARNING : Failed to create dynesty run plot at checkpoint
+18:47 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+18:47 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:47 WARNING : Failed to create dynesty state plot at checkpoint
+18:47 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:47 WARNING : Failed to create dynesty unit state plot at checkpoint
+18:47 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:47 WARNING : Failed to create dynesty run plot at checkpoint
+18:57 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+18:57 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:57 WARNING : Failed to create dynesty state plot at checkpoint
+18:57 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:57 WARNING : Failed to create dynesty unit state plot at checkpoint
+18:57 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+18:57 WARNING : Failed to create dynesty run plot at checkpoint
+19:08 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+19:08 WARNING : Axis limits cannot be NaN or Inf
+19:08 WARNING : Failed to create dynesty run plot at checkpoint
+19:19 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+19:19 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+19:19 WARNING : Failed to create dynesty state plot at checkpoint
+19:19 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+19:19 WARNING : Failed to create dynesty unit state plot at checkpoint
+19:19 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+19:19 WARNING : Failed to create dynesty run plot at checkpoint
+19:30 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+19:30 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+19:30 WARNING : Failed to create dynesty state plot at checkpoint
+19:30 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+19:30 WARNING : Failed to create dynesty unit state plot at checkpoint
+19:30 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+19:30 WARNING : Failed to create dynesty run plot at checkpoint
+19:41 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+19:41 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+19:41 WARNING : Failed to create dynesty state plot at checkpoint
+19:41 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+19:41 WARNING : Failed to create dynesty unit state plot at checkpoint
+19:41 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+19:41 WARNING : Failed to create dynesty run plot at checkpoint
+19:53 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+19:53 WARNING : Axis limits cannot be NaN or Inf
+19:53 WARNING : Failed to create dynesty run plot at checkpoint
+20:03 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+20:04 WARNING : Axis limits cannot be NaN or Inf
+20:04 WARNING : Failed to create dynesty run plot at checkpoint
+20:14 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+20:14 WARNING : Axis limits cannot be NaN or Inf
+20:14 WARNING : Failed to create dynesty run plot at checkpoint
+20:25 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+20:25 WARNING : Axis limits cannot be NaN or Inf
+20:25 WARNING : Failed to create dynesty run plot at checkpoint
+20:35 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+20:35 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+20:35 WARNING : Failed to create dynesty state plot at checkpoint
+20:35 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+20:35 WARNING : Failed to create dynesty unit state plot at checkpoint
+20:35 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+20:35 WARNING : Failed to create dynesty run plot at checkpoint
+20:46 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+20:46 WARNING : Axis limits cannot be NaN or Inf
+20:46 WARNING : Failed to create dynesty run plot at checkpoint
+20:56 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+20:56 WARNING : Axis limits cannot be NaN or Inf
+20:56 WARNING : Failed to create dynesty run plot at checkpoint
+21:07 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+21:07 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+21:07 WARNING : Failed to create dynesty state plot at checkpoint
+21:07 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+21:07 WARNING : Failed to create dynesty unit state plot at checkpoint
+21:07 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+21:07 WARNING : Failed to create dynesty run plot at checkpoint
+23:44 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_black_hole
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+23:44 INFO    : Injected signal in H1:
+23:44 INFO    :   optimal SNR = 369.76
+23:44 INFO    :   matched filter SNR = 370.95+0.27j
+23:44 INFO    :   mass_1 = 36.0
+23:44 INFO    :   mass_2 = 29.0
+23:44 INFO    :   a_1 = 0.4
+23:44 INFO    :   a_2 = 0.3
+23:44 INFO    :   tilt_1 = 0.5
+23:44 INFO    :   tilt_2 = 1.0
+23:44 INFO    :   phi_12 = 1.7
+23:44 INFO    :   phi_jl = 0.3
+23:44 INFO    :   luminosity_distance = 2000.0
+23:44 INFO    :   theta_jn = 0.4
+23:44 INFO    :   psi = 2.659
+23:44 INFO    :   phase = 1.3
+23:44 INFO    :   geocent_time = 1126259642.413
+23:44 INFO    :   ra = 1.375
+23:44 INFO    :   dec = 0.2108
+23:44 INFO    : No prior given, using default BBH priors in /home/sadhana/miniconda3/lib/python3.9/site-packages/bilby/gw/prior_files/precessing_spins_bbh.prior.
+23:44 INFO    : Injected signal in L1:
+23:44 INFO    :   optimal SNR = 592.63
+23:44 INFO    :   matched filter SNR = 591.45-0.19j
+23:44 INFO    :   mass_1 = 36.0
+23:44 INFO    :   mass_2 = 29.0
+23:44 INFO    :   a_1 = 0.4
+23:44 INFO    :   a_2 = 0.3
+23:44 INFO    :   tilt_1 = 0.5
+23:44 INFO    :   tilt_2 = 1.0
+23:44 INFO    :   phi_12 = 1.7
+23:44 INFO    :   phi_jl = 0.3
+23:44 INFO    :   luminosity_distance = 2000.0
+23:44 INFO    :   theta_jn = 0.4
+23:44 INFO    :   psi = 2.659
+23:44 INFO    :   phase = 1.3
+23:44 INFO    :   geocent_time = 1126259642.413
+23:44 INFO    :   ra = 1.375
+23:44 INFO    :   dec = 0.2108
+23:44 INFO    : No prior given, using default BBH priors in /home/sadhana/miniconda3/lib/python3.9/site-packages/bilby/gw/prior_files/precessing_spins_bbh.prior.
+23:44 INFO    : Loaded distance marginalisation lookup table from .distance_marginalization_lookup.npz.
+23:44 INFO    : Running for label 'next_genBBH', output will be saved to 'outdir'
+23:44 INFO    : Using lal version 7.3.1
+23:44 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.15;Id: 9a0927aac5e23cd7c93ada22a24aef9e3a12a2c7;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+23:44 INFO    : Using lalsimulation version 5.2.0
+23:44 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.15;Id: 9a0927aac5e23cd7c93ada22a24aef9e3a12a2c7;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+23:45 INFO    : Analysis priors:
+23:45 INFO    : mass_ratio=bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.125, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)
+23:45 INFO    : chirp_mass=bilby.gw.prior.UniformInComponentsChirpMass(minimum=25, maximum=100, name='chirp_mass', latex_label='$\\mathcal{M}$', unit=None, boundary=None)
+23:45 INFO    : dec=Cosine(minimum=-1.5707963267948966, maximum=1.5707963267948966, name='dec', latex_label='$\\mathrm{DEC}$', unit=None, boundary=None)
+23:45 INFO    : ra=Uniform(minimum=0, maximum=6.283185307179586, name='ra', latex_label='$\\mathrm{RA}$', unit=None, boundary='periodic')
+23:45 INFO    : theta_jn=Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\theta_{JN}$', unit=None, boundary=None)
+23:45 INFO    : time_jitter=Uniform(minimum=-0.00048828125, maximum=0.00048828125, name='time_jitter', latex_label='$t_j$', unit=None, boundary='periodic')
+23:45 INFO    : mass_1=Constraint(minimum=5, maximum=100, name='mass_1', latex_label='$m_1$', unit=None)
+23:45 INFO    : mass_2=Constraint(minimum=5, maximum=100, name='mass_2', latex_label='$m_2$', unit=None)
+23:45 INFO    : luminosity_distance=3382.9535676089
+23:45 INFO    : psi=2.659
+23:45 INFO    : phase=0.0
+23:45 INFO    : a_1=0.4
+23:45 INFO    : a_2=0.3
+23:45 INFO    : tilt_1=0.5
+23:45 INFO    : tilt_2=1.0
+23:45 INFO    : phi_12=1.7
+23:45 INFO    : phi_jl=0.3
+23:45 INFO    : geocent_time=1126259640.413
+23:45 INFO    : Analysis likelihood class: <class 'bilby.gw.likelihood.base.GravitationalWaveTransient'>
+23:45 INFO    : Analysis likelihood noise evidence: -251754.11581569852
+23:45 INFO    : Single likelihood evaluation took 7.508e-03 s
+23:45 WARNING : Supplied argument 'npoints' not an argument of 'Dynesty', removing.
+23:45 WARNING : Supplied argument 'n_checkpoint' not an argument of 'Dynesty', removing.
+23:45 INFO    : Using sampler Dynesty with kwargs {'nlive': 512, 'bound': 'live', 'sample': 'act-walk', 'periodic': None, 'reflective': None, 'update_interval': 600, 'first_update': None, 'npdim': None, 'rstate': None, 'queue_size': 1, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'gradient': None, 'grad_args': None, 'grad_kwargs': None, 'compute_jac': False, 'enlarge': None, 'bootstrap': None, 'walks': 100, 'facc': 0.2, 'slices': None, 'fmove': 0.9, 'max_move': 100, 'update_func': None, 'ncdim': None, 'blob': False, 'save_history': False, 'history_filename': None, 'maxiter': None, 'maxcall': None, 'dlogz': 0.2, 'logl_max': inf, 'n_effective': None, 'add_live': True, 'print_progress': True, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f879850d850>>, 'save_bounds': False, 'checkpoint_file': None, 'checkpoint_every': 60, 'resume': False}
+23:45 INFO    : Checkpoint every check_point_delta_t = 600s
+23:45 INFO    : Using dynesty version 2.1.2
+23:45 INFO    : Using the bilby-implemented rwalk sampling tracking the autocorrelation function and thinning by 2 with maximum length 2000
+23:45 INFO    : Reading resume file outdir/next_genBBH_resume.pickle
+23:45 INFO    : Resume file successfully loaded.
+23:46 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+23:46 WARNING : Axis limits cannot be NaN or Inf
+23:46 WARNING : Failed to create dynesty run plot at checkpoint
+23:56 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+23:57 WARNING : Axis limits cannot be NaN or Inf
+23:57 WARNING : Failed to create dynesty run plot at checkpoint
+00:08 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+00:08 WARNING : Axis limits cannot be NaN or Inf
+00:08 WARNING : Failed to create dynesty run plot at checkpoint
+00:18 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+00:18 WARNING : Axis limits cannot be NaN or Inf
+00:18 WARNING : Failed to create dynesty run plot at checkpoint
+00:28 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+00:29 WARNING : Axis limits cannot be NaN or Inf
+00:29 WARNING : Failed to create dynesty run plot at checkpoint
+00:39 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+00:39 WARNING : Axis limits cannot be NaN or Inf
+00:39 WARNING : Failed to create dynesty run plot at checkpoint
+00:50 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+00:50 WARNING : Axis limits cannot be NaN or Inf
+00:50 WARNING : Failed to create dynesty run plot at checkpoint
+01:00 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+01:00 WARNING : Axis limits cannot be NaN or Inf
+01:00 WARNING : Failed to create dynesty run plot at checkpoint
+01:11 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+01:11 WARNING : Axis limits cannot be NaN or Inf
+01:11 WARNING : Failed to create dynesty run plot at checkpoint
+01:16 INFO    : Written checkpoint file outdir/next_genBBH_resume.pickle
+01:16 WARNING : Axis limits cannot be NaN or Inf
+01:16 WARNING : Failed to create dynesty run plot at checkpoint
+01:16 INFO    : Rejection sampling nested samples to obtain 2365 posterior samples
+01:16 INFO    : Sampling time: 4:35:11.315090
+01:16 INFO    : Computing per-detector log likelihoods.
+01:16 INFO    : Reconstructing marginalised parameters.
+01:18 INFO    : Generating sky frame parameters.
+01:18 INFO    : Computing SNRs for every sample.
+01:18 INFO    : Summary of results:
+nsamples: 2365
+ln_noise_evidence: -251754.116
+ln_evidence: -8097.793 +/-  0.342
+ln_bayes_factor: 243656.322 +/-  0.342
+
