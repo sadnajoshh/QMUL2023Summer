@@ -1,0 +1,205 @@
+14:03 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_black_hole
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+14:03 WARNING : Injecting signal outside segment, start_time=0, merger time=1126259642.413.
+14:03 INFO    : Injected signal in H1:
+14:03 INFO    :   optimal SNR = 184.88
+14:03 INFO    :   matched filter SNR = 183.87-0.32j
+14:03 INFO    :   mass_1 = 36.0
+14:03 INFO    :   mass_2 = 29.0
+14:03 INFO    :   a_1 = 0.4
+14:03 INFO    :   a_2 = 0.3
+14:03 INFO    :   tilt_1 = 0.5
+14:03 INFO    :   tilt_2 = 1.0
+14:03 INFO    :   phi_12 = 1.7
+14:03 INFO    :   phi_jl = 0.3
+14:03 INFO    :   luminosity_distance = 4000.0
+14:03 INFO    :   theta_jn = 0.4
+14:03 INFO    :   psi = 2.659
+14:03 INFO    :   phase = 1.3
+14:03 INFO    :   geocent_time = 1126259642.413
+14:03 INFO    :   ra = 1.375
+14:03 INFO    :   dec = 0.2108
+14:03 INFO    : No prior given, using default BBH priors in /home/sadhana/miniconda3/lib/python3.9/site-packages/bilby/gw/prior_files/precessing_spins_bbh.prior.
+14:03 WARNING : Injecting signal outside segment, start_time=0, merger time=1126259642.413.
+14:03 INFO    : Injected signal in L1:
+14:03 INFO    :   optimal SNR = 296.31
+14:03 INFO    :   matched filter SNR = 296.34-1.65j
+14:03 INFO    :   mass_1 = 36.0
+14:03 INFO    :   mass_2 = 29.0
+14:03 INFO    :   a_1 = 0.4
+14:03 INFO    :   a_2 = 0.3
+14:03 INFO    :   tilt_1 = 0.5
+14:03 INFO    :   tilt_2 = 1.0
+14:03 INFO    :   phi_12 = 1.7
+14:03 INFO    :   phi_jl = 0.3
+14:03 INFO    :   luminosity_distance = 4000.0
+14:03 INFO    :   theta_jn = 0.4
+14:03 INFO    :   psi = 2.659
+14:03 INFO    :   phase = 1.3
+14:03 INFO    :   geocent_time = 1126259642.413
+14:03 INFO    :   ra = 1.375
+14:03 INFO    :   dec = 0.2108
+14:03 INFO    : No prior given, using default BBH priors in /home/sadhana/miniconda3/lib/python3.9/site-packages/bilby/gw/prior_files/precessing_spins_bbh.prior.
+14:03 INFO    : Running for label 'australian_detector', output will be saved to 'outdir'
+14:03 INFO    : Using lal version 7.3.1
+14:03 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.15;Id: 9a0927aac5e23cd7c93ada22a24aef9e3a12a2c7;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+14:03 INFO    : Using lalsimulation version 5.2.0
+14:03 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.15;Id: 9a0927aac5e23cd7c93ada22a24aef9e3a12a2c7;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+14:03 INFO    : Analysis priors:
+14:03 INFO    : mass_ratio=bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.125, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)
+14:03 INFO    : chirp_mass=bilby.gw.prior.UniformInComponentsChirpMass(minimum=25, maximum=100, name='chirp_mass', latex_label='$\\mathcal{M}$', unit=None, boundary=None)
+14:03 INFO    : luminosity_distance=bilby.gw.prior.UniformSourceFrame(minimum=100.0, maximum=5000.0, cosmology=FlatLambdaCDM(name="Planck15", H0=67.74 km / (Mpc s), Om0=0.3075, Tcmb0=2.7255 K, Neff=3.046, m_nu=[0.   0.   0.06] eV, Ob0=0.0486), name='luminosity_distance', latex_label='$d_L$', unit=Unit("Mpc"), boundary=None)
+14:03 INFO    : dec=Cosine(minimum=-1.5707963267948966, maximum=1.5707963267948966, name='dec', latex_label='$\\mathrm{DEC}$', unit=None, boundary=None)
+14:03 INFO    : ra=Uniform(minimum=0, maximum=6.283185307179586, name='ra', latex_label='$\\mathrm{RA}$', unit=None, boundary='periodic')
+14:03 INFO    : theta_jn=Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\theta_{JN}$', unit=None, boundary=None)
+14:03 INFO    : mass_1=Constraint(minimum=5, maximum=100, name='mass_1', latex_label='$m_1$', unit=None)
+14:03 INFO    : mass_2=Constraint(minimum=5, maximum=100, name='mass_2', latex_label='$m_2$', unit=None)
+14:03 INFO    : psi=2.659
+14:03 INFO    : phase=1.3
+14:03 INFO    : a_1=0.4
+14:03 INFO    : a_2=0.3
+14:03 INFO    : tilt_1=0.5
+14:03 INFO    : tilt_2=1.0
+14:03 INFO    : phi_12=1.7
+14:03 INFO    : phi_jl=0.3
+14:03 INFO    : geocent_time=1126259642.413
+14:03 INFO    : Analysis likelihood class: <class 'bilby.gw.likelihood.base.GravitationalWaveTransient'>
+14:03 INFO    : Analysis likelihood noise evidence: -68856.49209465072
+14:03 INFO    : Single likelihood evaluation took 2.592e-03 s
+14:03 WARNING : Supplied argument 'npoints' not an argument of 'Dynesty', removing.
+14:03 WARNING : Supplied argument 'n_checkpoint' not an argument of 'Dynesty', removing.
+14:03 INFO    : Using sampler Dynesty with kwargs {'nlive': 256, 'bound': 'live', 'sample': 'act-walk', 'periodic': None, 'reflective': None, 'update_interval': 600, 'first_update': None, 'npdim': None, 'rstate': None, 'queue_size': 1, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'gradient': None, 'grad_args': None, 'grad_kwargs': None, 'compute_jac': False, 'enlarge': None, 'bootstrap': None, 'walks': 100, 'facc': 0.2, 'slices': None, 'fmove': 0.9, 'max_move': 100, 'update_func': None, 'ncdim': None, 'blob': False, 'save_history': False, 'history_filename': None, 'maxiter': None, 'maxcall': None, 'dlogz': 0.25, 'logl_max': inf, 'n_effective': None, 'add_live': True, 'print_progress': True, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f8d57f36d60>>, 'save_bounds': False, 'checkpoint_file': None, 'checkpoint_every': 60, 'resume': False}
+14:03 INFO    : Checkpoint every check_point_delta_t = 600s
+14:03 INFO    : Using dynesty version 2.1.2
+14:03 INFO    : Using the bilby-implemented rwalk sampling tracking the autocorrelation function and thinning by 2 with maximum length 2000
+14:03 INFO    : Resume file outdir/australian_detector_resume.pickle does not exist.
+14:03 INFO    : Generating initial points from the prior
+14:14 INFO    : Written checkpoint file outdir/australian_detector_resume.pickle
+14:14 WARNING : Axis limits cannot be NaN or Inf
+14:14 WARNING : Failed to create dynesty run plot at checkpoint
+14:24 INFO    : Written checkpoint file outdir/australian_detector_resume.pickle
+14:24 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+14:24 WARNING : Failed to create dynesty state plot at checkpoint
+14:24 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+14:24 WARNING : Failed to create dynesty unit state plot at checkpoint
+14:24 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+14:24 WARNING : Failed to create dynesty run plot at checkpoint
+14:34 INFO    : Written checkpoint file outdir/australian_detector_resume.pickle
+14:35 WARNING : Axis limits cannot be NaN or Inf
+14:35 WARNING : Failed to create dynesty run plot at checkpoint
+14:46 INFO    : Written checkpoint file outdir/australian_detector_resume.pickle
+14:46 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+14:46 WARNING : Failed to create dynesty state plot at checkpoint
+14:46 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+14:46 WARNING : Failed to create dynesty unit state plot at checkpoint
+14:46 WARNING : The data appears to lie in a lower-dimensional subspace of the space in which it is expressed. This has resulted in a singular data covariance matrix, which cannot be treated using the algorithms implemented in `gaussian_kde`. Consider performing principle component analysis / dimensionality reduction and using `gaussian_kde` with the transformed data.
+14:46 WARNING : Failed to create dynesty run plot at checkpoint
+14:57 INFO    : Written checkpoint file outdir/australian_detector_resume.pickle
+14:57 WARNING : Axis limits cannot be NaN or Inf
+14:57 WARNING : Failed to create dynesty run plot at checkpoint
+17:23 INFO    : Written checkpoint file outdir/australian_detector_resume.pickle
+17:23 WARNING : Axis limits cannot be NaN or Inf
+17:23 WARNING : Failed to create dynesty run plot at checkpoint
+17:36 INFO    : Written checkpoint file outdir/australian_detector_resume.pickle
+17:37 WARNING : Axis limits cannot be NaN or Inf
+17:37 WARNING : Failed to create dynesty run plot at checkpoint
+00:28 INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby.gw.source.lal_binary_black_hole
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+00:28 WARNING : Injecting signal outside segment, start_time=0, merger time=1126259642.413.
+00:28 INFO    : Injected signal in H1:
+00:28 INFO    :   optimal SNR = 184.88
+00:28 INFO    :   matched filter SNR = 183.87-0.32j
+00:28 INFO    :   mass_1 = 36.0
+00:28 INFO    :   mass_2 = 29.0
+00:28 INFO    :   a_1 = 0.4
+00:28 INFO    :   a_2 = 0.3
+00:28 INFO    :   tilt_1 = 0.5
+00:28 INFO    :   tilt_2 = 1.0
+00:28 INFO    :   phi_12 = 1.7
+00:28 INFO    :   phi_jl = 0.3
+00:28 INFO    :   luminosity_distance = 4000.0
+00:28 INFO    :   theta_jn = 0.4
+00:28 INFO    :   psi = 2.659
+00:28 INFO    :   phase = 1.3
+00:28 INFO    :   geocent_time = 1126259642.413
+00:28 INFO    :   ra = 1.375
+00:28 INFO    :   dec = 0.2108
+00:28 INFO    : No prior given, using default BBH priors in /home/sadhana/miniconda3/lib/python3.9/site-packages/bilby/gw/prior_files/precessing_spins_bbh.prior.
+00:28 WARNING : Injecting signal outside segment, start_time=0, merger time=1126259642.413.
+00:28 INFO    : Injected signal in L1:
+00:28 INFO    :   optimal SNR = 296.31
+00:28 INFO    :   matched filter SNR = 296.34-1.65j
+00:28 INFO    :   mass_1 = 36.0
+00:28 INFO    :   mass_2 = 29.0
+00:28 INFO    :   a_1 = 0.4
+00:28 INFO    :   a_2 = 0.3
+00:28 INFO    :   tilt_1 = 0.5
+00:28 INFO    :   tilt_2 = 1.0
+00:28 INFO    :   phi_12 = 1.7
+00:28 INFO    :   phi_jl = 0.3
+00:28 INFO    :   luminosity_distance = 4000.0
+00:28 INFO    :   theta_jn = 0.4
+00:28 INFO    :   psi = 2.659
+00:28 INFO    :   phase = 1.3
+00:28 INFO    :   geocent_time = 1126259642.413
+00:28 INFO    :   ra = 1.375
+00:28 INFO    :   dec = 0.2108
+00:28 INFO    : No prior given, using default BBH priors in /home/sadhana/miniconda3/lib/python3.9/site-packages/bilby/gw/prior_files/precessing_spins_bbh.prior.
+00:28 INFO    : Running for label 'australian_detector', output will be saved to 'outdir'
+00:28 INFO    : Using lal version 7.3.1
+00:28 INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.15;Id: 9a0927aac5e23cd7c93ada22a24aef9e3a12a2c7;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+00:28 INFO    : Using lalsimulation version 5.2.0
+00:28 INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.15;Id: 9a0927aac5e23cd7c93ada22a24aef9e3a12a2c7;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+00:29 INFO    : Analysis priors:
+00:29 INFO    : mass_ratio=bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.125, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)
+00:29 INFO    : chirp_mass=bilby.gw.prior.UniformInComponentsChirpMass(minimum=25, maximum=100, name='chirp_mass', latex_label='$\\mathcal{M}$', unit=None, boundary=None)
+00:29 INFO    : luminosity_distance=bilby.gw.prior.UniformSourceFrame(minimum=100.0, maximum=5000.0, cosmology=FlatLambdaCDM(name="Planck15", H0=67.74 km / (Mpc s), Om0=0.3075, Tcmb0=2.7255 K, Neff=3.046, m_nu=[0.   0.   0.06] eV, Ob0=0.0486), name='luminosity_distance', latex_label='$d_L$', unit=Unit("Mpc"), boundary=None)
+00:29 INFO    : dec=Cosine(minimum=-1.5707963267948966, maximum=1.5707963267948966, name='dec', latex_label='$\\mathrm{DEC}$', unit=None, boundary=None)
+00:29 INFO    : ra=Uniform(minimum=0, maximum=6.283185307179586, name='ra', latex_label='$\\mathrm{RA}$', unit=None, boundary='periodic')
+00:29 INFO    : theta_jn=Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\theta_{JN}$', unit=None, boundary=None)
+00:29 INFO    : mass_1=Constraint(minimum=5, maximum=100, name='mass_1', latex_label='$m_1$', unit=None)
+00:29 INFO    : mass_2=Constraint(minimum=5, maximum=100, name='mass_2', latex_label='$m_2$', unit=None)
+00:29 INFO    : psi=2.659
+00:29 INFO    : phase=1.3
+00:29 INFO    : a_1=0.4
+00:29 INFO    : a_2=0.3
+00:29 INFO    : tilt_1=0.5
+00:29 INFO    : tilt_2=1.0
+00:29 INFO    : phi_12=1.7
+00:29 INFO    : phi_jl=0.3
+00:29 INFO    : geocent_time=1126259642.413
+00:29 INFO    : Analysis likelihood class: <class 'bilby.gw.likelihood.base.GravitationalWaveTransient'>
+00:29 INFO    : Analysis likelihood noise evidence: -68856.49209465072
+00:29 INFO    : Single likelihood evaluation took 1.057e-02 s
+00:29 WARNING : Supplied argument 'npoints' not an argument of 'Dynesty', removing.
+00:29 WARNING : Supplied argument 'n_checkpoint' not an argument of 'Dynesty', removing.
+00:29 INFO    : Using sampler Dynesty with kwargs {'nlive': 256, 'bound': 'live', 'sample': 'act-walk', 'periodic': None, 'reflective': None, 'update_interval': 600, 'first_update': None, 'npdim': None, 'rstate': None, 'queue_size': 1, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'gradient': None, 'grad_args': None, 'grad_kwargs': None, 'compute_jac': False, 'enlarge': None, 'bootstrap': None, 'walks': 100, 'facc': 0.2, 'slices': None, 'fmove': 0.9, 'max_move': 100, 'update_func': None, 'ncdim': None, 'blob': False, 'save_history': False, 'history_filename': None, 'maxiter': None, 'maxcall': None, 'dlogz': 0.25, 'logl_max': inf, 'n_effective': None, 'add_live': True, 'print_progress': True, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f6c4673deb0>>, 'save_bounds': False, 'checkpoint_file': None, 'checkpoint_every': 60, 'resume': False}
+00:29 INFO    : Checkpoint every check_point_delta_t = 600s
+00:29 INFO    : Using dynesty version 2.1.2
+00:29 INFO    : Using the bilby-implemented rwalk sampling tracking the autocorrelation function and thinning by 2 with maximum length 2000
+00:29 INFO    : Reading resume file outdir/australian_detector_resume.pickle
+00:29 INFO    : Resume file successfully loaded.
+00:30 INFO    : Written checkpoint file outdir/australian_detector_resume.pickle
+00:30 WARNING : Axis limits cannot be NaN or Inf
+00:30 WARNING : Failed to create dynesty run plot at checkpoint
+00:40 INFO    : Written checkpoint file outdir/australian_detector_resume.pickle
+00:41 WARNING : Axis limits cannot be NaN or Inf
+00:41 WARNING : Failed to create dynesty run plot at checkpoint
+00:50 INFO    : Written checkpoint file outdir/australian_detector_resume.pickle
+00:50 WARNING : Axis limits cannot be NaN or Inf
+00:50 WARNING : Failed to create dynesty run plot at checkpoint
+00:50 INFO    : Rejection sampling nested samples to obtain 1047 posterior samples
+00:50 INFO    : Sampling time: 3:53:50.576004
+00:50 INFO    : Computing per-detector log likelihoods.
+00:50 INFO    : Generating sky frame parameters.
+00:50 INFO    : Computing SNRs for every sample.
+00:50 INFO    : Summary of results:
+nsamples: 1047
+ln_noise_evidence: -68856.492
+ln_evidence: -8077.811 +/-  0.503
+ln_bayes_factor: 60778.682 +/-  0.503
+
